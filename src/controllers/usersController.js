@@ -14,7 +14,7 @@ class userController{
             ON u.user_type_id = ut.id`,
         {type : sequelize.QueryTypes.SELECT})
         return users
-    }
+    } 
 
     static showOne(id){
         const user = sequelize.query(

@@ -10,6 +10,6 @@ const configuration = {
     JWT : {
         PRIVATE_KEY : 'secreto'
     }
-}
+} 
 
 module.exports = {configuration}

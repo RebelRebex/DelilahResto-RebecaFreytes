@@ -7,7 +7,7 @@ const getUserId = require('../middlewares/authMiddleware').getIdfromUser
 
 
 
-router
+router 
     
     .post('/login',async(req,res)=>{
       try{

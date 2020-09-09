@@ -5,7 +5,7 @@ const authRole = require('../middlewares/authMiddleware').autenticarRol
 
 router
 
-  .use(authUser)
+  .use(authUser) 
    
 
   .get('/', async (req,res) =>{

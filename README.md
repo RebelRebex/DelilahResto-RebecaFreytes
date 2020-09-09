@@ -23,7 +23,7 @@ Esto te ayudará a entender de antemano como se organizan las carpetas del proye
   
 ### Instalación
   
-Luego de tener la copia de este proyecto, procederemos a configurar nuestro proyecto en base a nuestro entorno.
+Luego de tener la copia de este proyecto, procederemos a configurar nuestro proyecto en base a nuestro entorno. 
   
 Primero, entraremos a la siguiente ruta, en donde configuraremos el puerto en donde querramos que se corra nuestro server (PORT)
   

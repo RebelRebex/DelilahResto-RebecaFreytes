@@ -8,7 +8,7 @@ class productController {
             FROM product`,
         {type : sequelize.QueryTypes.SELECT})
         return product
-    }
+    } 
 
     static showOne(id){
         const product = sequelize.query(

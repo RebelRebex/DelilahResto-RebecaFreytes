@@ -4,7 +4,7 @@ const getUser = require('../middlewares/authMiddleware').getIdfromUser
 const authUser = require('../middlewares/authMiddleware').autenticarUsuario
 const authRole = require('../middlewares/authMiddleware').autenticarRol
 
-router
+router 
     .use(authUser)
 
     .post('/',async(req,res)=>{

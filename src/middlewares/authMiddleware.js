@@ -41,4 +41,4 @@ const autenticarRol = (req,res,next)=>{
     }
 }
 
-module.exports = {autenticarUsuario,autenticarRol,getIdfromUser}
+module.exports = {autenticarUsuario,autenticarRol,getIdfromUser} 

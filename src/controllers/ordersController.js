@@ -19,7 +19,7 @@ class orderController{
         {type : sequelize.QueryTypes.SELECT})
         return orders
 
-    }
+    } 
 
   
     static showAllDetails(){

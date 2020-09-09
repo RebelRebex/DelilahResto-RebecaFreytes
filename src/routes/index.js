@@ -13,4 +13,4 @@ router.get('/',(req,res)=>{
         .json({Mensaje: "Estás conectado a nuestra API"})
 })
 
-module.exports = router
+module.exports = router 
