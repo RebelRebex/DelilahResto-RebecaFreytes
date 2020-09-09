@@ -4,4 +4,4 @@ const dbQueryString = `mysql://${configuration.DDBB.USER}:${configuration.DDBB.P
 const sequelize = new Sequelize(dbQueryString)
 
 
-module.exports = sequelize
+module.exports = sequelize 
